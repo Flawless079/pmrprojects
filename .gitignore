@@ -6,3 +6,4 @@ storage/*
 !storage/app
 .idea
 config/database.php
+config/app.php
