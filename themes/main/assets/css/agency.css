@@ -554,10 +554,7 @@ aside.clients img {
   margin: 50px auto;
 }
 section#contact {
-  background-color: #222222;
-  background-image: url('../startbootstrap-agency-gh-pages/img/map-image.png');
-  background-position: center;
-  background-repeat: no-repeat;
+  background: #222222 url('../img/map-image.png') no-repeat center;
 }
 section#contact .section-heading {
   color: white;
