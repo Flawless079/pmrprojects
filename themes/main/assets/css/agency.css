@@ -295,7 +295,7 @@ section h3.section-subheading {
 }
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 70px 0;
   }
 }
 .service-heading {
@@ -730,7 +730,7 @@ ul.social-buttons li a:active {
 }
 ::selection {
   text-shadow: none;
-  background: #ff8500;
+  background: #fed136;
 }
 img::selection {
   background: transparent;
@@ -739,5 +739,5 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #ff8500;
+  webkit-tap-highlight-color: #fed136;
 }
