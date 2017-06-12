@@ -29,7 +29,7 @@ return [
     |
     */
 
-    'url' => 'http://localhost/pmrprojects/',
+    'url' => 'http://localhost:8888/pmrprojects/',
 
     /*
     |--------------------------------------------------------------------------
@@ -81,7 +81,7 @@ return [
     |
     */
 
-    'key' => 'QqNxJpvLhKxInptimEvrvHQN4girYzCr',
+    'key' => 'wlesAAte4zKL4Erets3fw6AMa4ekrgiY',
 
     'cipher' => 'AES-256-CBC',
 
