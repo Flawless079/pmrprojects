@@ -52,7 +52,7 @@ is_hidden = 0
     </div>
     <!-- /.container -->
 </div>
-
+<!-- portfolio begins -->
 <section id="portfolio" class="bg-light-gray">
     <div class="container">
         <div class="row">
@@ -62,7 +62,7 @@ is_hidden = 0
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4 col-sm-6 portfolio-item">
+            <div class="col-md-4 col-sm-6 portfolio-item portfolio-left">
                 <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
@@ -76,7 +76,7 @@ is_hidden = 0
                     <p class="text-muted">Enquête Website</p>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
+            <div class="col-md-4 col-sm-6 portfolio-item portfolio-mid1">
                 <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
@@ -90,7 +90,7 @@ is_hidden = 0
                     <p class="text-muted">Website Design</p>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
+            <div class="col-md-4 col-sm-6 portfolio-item portfolio-right">
                 <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
@@ -104,7 +104,7 @@ is_hidden = 0
                     <p class="text-muted">Apple 1.7 millions colors, <br>HP just two...</p>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
+            <div class="col-md-4 col-sm-6 portfolio-item portfolio-left">
                 <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
@@ -118,7 +118,7 @@ is_hidden = 0
                     <p class="text-muted">Website Design</p>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
+            <div class="col-md-4 col-sm-6 portfolio-item portfolio-mid2">
                 <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
@@ -132,7 +132,7 @@ is_hidden = 0
                     <p class="text-muted">Website Design</p>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
+            <div class="col-md-4 col-sm-6 portfolio-item portfolio-right">
                 <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
@@ -345,28 +345,28 @@ is_hidden = 0
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-sm-3">
+            <div class="col-sm-3 Peter">
                 <div class="team-member">
                     <img src="../pmrprojects/themes/main/assets/img/profile.jpg" class="img-responsive img-circle" alt="">
                     <h4>Peter Duits</h4>
                     <p class="text-muted">Backend Developer</p>
                 </div>
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-3 Matthijs">
                 <div class="team-member">
                     <img src="../pmrprojects/themes/main/assets/img/profile.jpg" class="img-responsive img-circle" alt="">
                     <h4>Matthijs van der Harst</h4>
                     <p class="text-muted">Frontend Developer</p>
                 </div>
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-3 Mehmed">
                 <div class="team-member">
                     <img src="../pmrprojects/themes/main/assets/img/profile.jpg" class="img-responsive img-circle" alt="">
                     <h4>Mehmed Memed</h4>
                     <p class="text-muted">Designer</p>
                 </div>
             </div>
-            <div class="col-sm-3">
+            <div class="col-sm-3 Ruben">
                 <div class="team-member">
                     <img src="../pmrprojects/themes/main/assets/img/profile.jpg" class="img-responsive img-circle" alt="">
                     <h4>Ruben Vriesde</h4>
@@ -432,6 +432,73 @@ is_hidden = 0
     sr.reveal('.navbar',{
         duration: 2000,
         origin: 'top'
+
+    });
+
+    sr.reveal('.portfolio-left',{
+        duration: 2000,
+        origin: 'left',
+        distance: '100px',
+        viewFactor: 0.4
+
+    });
+
+    sr.reveal('.portfolio-mid1',{
+        duration: 2000,
+        origin: 'top',
+        distance: '100px',
+        viewFactor: 0.4
+
+    });
+
+    sr.reveal('.portfolio-mid2',{
+        duration: 2000,
+        origin: 'bottom',
+        distance: '100px',
+        viewFactor: 0.2
+
+    });
+
+    sr.reveal('.portfolio-right',{
+        duration: 2000,
+        origin: 'right',
+        distance: '100px',
+        viewFactor: 0.2
+
+    });
+
+    sr.reveal('.Peter',{
+        duration: 2000,
+        origin: 'top',
+        distance: '100px',
+        viewFactor: 0.3
+
+    });
+
+    sr.reveal('.Matthijs',{
+        duration: 2000,
+        delay: 500,
+        origin: 'top',
+        distance: '100px',
+        viewFactor: 0.3
+
+    });
+
+    sr.reveal('.Mehmed',{
+        duration: 2000,
+        delay: 1000,
+        origin: 'top',
+        distance: '100px',
+        viewFactor: 0.3
+
+    });
+
+    sr.reveal('.Ruben',{
+        duration: 2000,
+        delay: 1500,
+        origin: 'top',
+        distance: '100px',
+        viewFactor: 0.3
 
     });
 
